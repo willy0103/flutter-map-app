@@ -12,19 +12,12 @@ class _AddFriendState extends State<AddFriend> {
   bool _isSelected = false;
 
   void _searchFriend() {
-    // Implement logic to search friend by ID and update the UI accordingly
-    // You can fetch data from a database or any other data source
-    // and update the UI with the found friend's details
-    // For simplicity, I'm just updating the _isSelected value
     setState(() {
       _isSelected = true;
     });
   }
 
   void _sendFriendRequest() {
-    // Implement logic to send friend request to the selected friend
-    // You can perform actions like API calls or database operations here
-    // For simplicity, I'm just showing a toast message
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('Friend request sent!')),
     );
