@@ -85,7 +85,10 @@ class _personalState extends State<personal> {
           ),
           GestureDetector(
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MapsPage()),
+              );
             },
             child: Stack(
               alignment: Alignment.bottomCenter,
