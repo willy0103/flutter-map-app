@@ -189,7 +189,7 @@ class _CreatAvatarState extends State<CreatAvatar> {
                   nameTextField(
                     controller: nameController,
                     hintText: 'Your Name',
-                    obscureText: true,
+                    obscureText: false,
                   ),
                   const SizedBox(height: 50),
                   // sign in button
